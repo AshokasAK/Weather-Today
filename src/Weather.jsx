@@ -114,7 +114,7 @@ const Weather = () => {
          />}
 {loading && !notACity && <div className='loading'>Loading...</div>}
 
-{notACity && <div className="notacity">You entered a wrong place,you might mispelled.Check your spelling  </div>}
+{notACity && <div className="notacity">You entered a wrong place,you might mispelled. Check your spelling  </div>}
 {loading && notACity &&<div className="error">{error}</div>}
 
          </div>
